@@ -25,15 +25,14 @@ build:
 
 requirements:
   run:
-        - python
+        - python >=3.5
         - openblas
         - freeglut
   build:
         - swig
         - toolchain
         - cmake >=2.8.6
-        - python
-        # - python                  # [win]
+        - python >=3.5
 
 about:
     home: http://opensim.stanford.edu
